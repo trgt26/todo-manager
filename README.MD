@@ -1,6 +1,4 @@
-# Django Todo
-
-A simple todo app, built with Django.
+# Todo Manager Todo
 
 ## Features
 
