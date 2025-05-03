@@ -1,0 +1,21 @@
+<form method ="post" action="{% url 'todo:todo_create' %}">
+    {% csrf_token %}
+
+    <div class="mb-3 mt-3">
+        <input
+            type="text"
+            class="form-control"
+            name="todo-title"
+            id=""
+            value=""
+            aria-describedby="helpId"
+            placeholder="Write your todo"
+        />
+      
+    </div>
+    <div class="text-center mb-3" >
+        <button type="submit" class="btn btn-primary">
+            Add Todo
+        </button>
+    </div>
+</form>
